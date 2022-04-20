@@ -4,8 +4,8 @@ artillery:
     entrypoint: [""]
   script: |
     mkdir reports
-    /home/node/artillery/bin/artillery run --output reports/report.json tests/performance/socket-io.yml
-    /home/node/artillery/bin/artillery report --output reports/report.html reports/report.json
+    /home/node/artillery/bin/run run --output reports/report.json tests/performance/socket-io.yml
+    /home/node/artillery/bin/run report --output reports/report.html reports/report.json
   artifacts:
     paths:
       - reports
