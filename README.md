@@ -1,4 +1,4 @@
-# Artillery CI/CD Examples
+# Artillery CI/CD Examples - NOW MOVED TO MAIN EXAMPLES REPO
 
 This repo contains examples of how to integrate [Artillery](https://artillery.io/) with different continuous integration and continuous delivery services.
 
